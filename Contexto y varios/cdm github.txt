@@ -1,0 +1,14 @@
+--codigos github crear nuevo repositorio
+echo "# GoodPlant" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JBTesla/GoodPlant.git
+git push -u origin main
+-- push a un repositorio existente
+git remote add origin https://github.com/JBTesla/GoodPlant.git
+git branch -M main
+git push -u origin main
+--link proyecto
+https://github.com/JBTesla/GoodPlant.git
