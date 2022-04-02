@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md bg-info navbar-dark">
         <!-- Brand -->
         <img src="/GoodPlant/img/logoGoodPlant.png" alt="" width="70px">
         <a class="navbar-brand" href="#">GoodPlant</a>
@@ -71,11 +71,65 @@
                 </div>
             <div class="col-sm-10">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-2">
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-8">
+                      <div class="titulo mt-3 mb-3 text-center">
+                      <H1>Seguimiento de despacho</H1>
                     </div>
-                    <div class="col-sm-4">
+                      <div class="row">
+                        <div class="col-sm-4">
+                          <img src="/GoodPlant/img/shoopingcart.png" alt="">
+                          <img src="/GoodPlant/img/arrow.png" alt="">
+                        </div>
+                        <div class="col-sm-4">
+                          <img src="/GoodPlant/img/truck.png" alt="">
+                          <img src="/GoodPlant/img/arrow.png" alt="">
+                        </div>
+                        <div class="col-sm-4">
+                          <img src="/GoodPlant/img/home.png" alt="">
+                          <img src="/GoodPlant/img/success.png" alt="">
+                        </div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" style="width:25%">25%</div>
+                      </div>
+                      <div class="mensagge mt-3">
+                        <h3>Tu pedido esta siendo preparado por nuestra tienda</h3>
+                        <p>Fecha estimada de entrega el martes 5 de abril</p>
+                      </div>
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th>Producto</th>
+                            <th>Fecha de compra</th>
+                            <th>Precio</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Pala de jardin</td>
+                            <td>23/02/2022</td>
+                            <td>$8.000</td>
+                          </tr>
+                          <tr>
+                            <td>Maceta Good</td>
+                            <td>23/02/2022</td>
+                            <td>$10.000</td>
+                          </tr>
+                          <tr>
+                            <td>Tierra de hojas</td>
+                            <td>23/02/2022</td>
+                            <td>$5.000</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div style="text-align: center;">
+                        <input type="submit" value="Ver despacho" class="btn btn-success mt-3" name="btnEnviar" id="btnEnviar">
+                        <input type="reset" value="Cancelar" class="btn btn-danger mt-3" name="btnLimpiar" id="btnLimpiar">
+                    </div>
+                  </div>
+                    <div class="col-sm-2">
                     </div>
                 </div>
                 <div class="row">
@@ -159,10 +213,37 @@
     </div>
   </div>
 </div>
-    <div class="p-5 bg-dark text-white">
-        <div class="d-flex justify-content-between align-items-center">
-        </div>
-    </div>
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <img src="/GoodPlant/img/logoFooter.png" alt="" width="50px">
+    <a class="text-white" href="#">Good_Plant_Store</a>
+  </div>
+  <!-- Copyright -->
+</footer>
         <!-- jslibrary -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
