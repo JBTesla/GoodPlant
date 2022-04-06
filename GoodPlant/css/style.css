@@ -1,3 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    justify-content: space-around;
+}
+@media(max-width:1000px){
+    .row{
+        padding: 20px 50px;
+    }
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
 .nav-link{
     color: white;
 }
