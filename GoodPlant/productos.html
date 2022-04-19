@@ -33,7 +33,7 @@
           <a class="nav-link" href="productos.html">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="descuentos.html">Codigos de descuento</a>
+          <a class="nav-link" href="carrito.html">Carrito de compras</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#" data-toggle="modal" data-target="#ModalFundacion">Unete a la Fundacion</a>
@@ -56,6 +56,8 @@
                       <div class="card-body">
                         <h4 class="card-title">Maceta Good</h4>
                         <p class="card-text">$8.000</p>
+                        <p class="card-text">Con Suscripcion -5%: $7.600</p>
+                        <p class="card-text">Stock: 10</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
                         <a href="#" class="btn btn-primary mt-3">Aplicar Descuento</a>
                       </div>
@@ -67,8 +69,12 @@
                       <div class="card-body">
                         <h4 class="card-title">Pala Jardin</h4>
                         <p class="card-text">$10.000</p>
+                        <p class="card-text">Con Suscripcion -5%: 9.500</p>
+                        <p class="card-text">Stock: 10</p>
+                        <div class="boton justify-content-between" >
                         <a href="#" class="btn btn-primary">Comprar</a>
                         <a href="#" class="btn btn-primary mt-3">Aplicar Descuento</a>
+                      </div>
                       </div>
                     </div>
                   </div>
@@ -78,6 +84,8 @@
                       <div class="card-body">
                         <h5 class="card-title">Tierra De Hojas</h5>
                         <p class="card-text">$8.000</p>
+                        <p class="card-text">Con Suscripcion -5%: $7.600</p>
+                        <p class="card-text">Stock: 10</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
                         <a href="#" class="btn btn-primary mt-3">Aplicar Descuento</a>
                       </div>
@@ -91,6 +99,8 @@
                       <div class="card-body">
                         <h4 class="card-title">Insecticida</h4>
                         <p class="card-text">$7.000</p>
+                        <p class="card-text">Con Suscripcion -5%: $6.650</p>
+                        <p class="card-text">Stock: 10</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
                         <a href="#" class="btn btn-primary mt-3">Aplicar Descuento</a>
                       </div>
@@ -102,6 +112,8 @@
                       <div class="card-body">
                         <h4 class="card-title">Pack de semillas</h4>
                         <p class="card-text">$10.000</p>
+                        <p class="card-text">Con Suscripcion -5%: $9.500</p>
+                        <p class="card-text">Stock: 10</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
                         <a href="#" class="btn btn-primary mt-3">Aplicar Descuento</a>
                       </div>
@@ -113,6 +125,8 @@
                       <div class="card-body">
                         <h4 class="card-title">Regadera</h4>
                         <p class="card-text">$5.000</p>
+                        <p class="card-text">Con Suscripcion -5%: $4.750</p>
+                        <p class="card-text">Stock: 10</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
                         <a href="#" class="btn btn-primary mt-3">Aplicar Descuento</a>
                       </div>
@@ -153,56 +167,76 @@
       </div>
     </div>
   </div>
-      <!-- The Modal -->
-<div class="modal" id="ModalFundacion">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">Unete a la Fundacion</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <!-- Modal body -->
-        <div class="modal-body mt-3">
-            <div>
-              <div style="text-align: center;">
-                <img src="img/registroUsuario.png" alt="" width="50">
-                <form action="perfilUsuario.html" method="get">
+        <!-- The Modal -->
+        <div class="modal" id="ModalFundacion">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Unete a la Fundacion</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
-                    <div class="form-group">
-                        <label for="txtUser">Nombre</label>
-                        <input type="text" placeholder="Ingrese Nombre" class="form-control" name="txtName" id="txtName">
-                    </div>
-                    <div>
-                      <label for="txtAppaterno">Apellido paterno</label>
-                      <input type="text" placeholder="Ingrese apellido paterno" class="form-control" name="txtAppaterno" id="txtAppaterno">
-                  </div>
+              <!-- Modal body -->
+              <div class="modal-body mt-3">
                   <div>
-                    <label for="txtApmaterno">Apellido materno</label>
-                    <input type="text" placeholder="Ingrese apellido materno" class="form-control" name="txtApmaterno" id="txtApmaterno">
-                </div>
-                    <div>
-                        <label for="txtEmail">Correo Electronico</label>
-                        <input type="text" placeholder="Ingresa tu correo" class="form-control" name="txtEmail" id="txtEmail">
-                    </div>
-                    <div>
-                      <label for="txtNumcon">Numero Contacto</label>
-                      <input type="text" placeholder="Ingrese numero contacto" class="form-control" name="txtNumcon" id="txtNumcon">
-                  </div>
                     <div style="text-align: center;">
-                        <input type="submit"  class="btn btn-success mt-3" name="btnEnviar" id="btnEnviar">
-                        <input type="reset" class="btn btn-danger mt-3" name="btnLimpiar" id="btnLimpiar">
+                      <img src="img/registroUsuario.png" alt="" width="50">
+                      <form action="perfilUsuario.html" method="get">
                     </div>
-                </form>
+                          <div class="form-group">
+                              <label for="txtUser">Nombre Completo</label>
+                              <input type="text" placeholder="Ingrese Nombre" class="form-control" name="txtName" id="txtName">
+                          </div>
+                          <div class="txtEmail">
+                              <label for="txtEmail">Correo Electronico</label>
+                              <input type="text" placeholder="Ingresa tu correo" class="form-control" name="txtEmail" id="txtEmail">
+                          </div>
+                          <div>
+                            <label for="txtNumcon">Numero Contacto</label>
+                            <input type="text" placeholder="Ingrese numero contacto" class="form-control" name="txtNumcon" id="txtNumcon">
+                        </div>
+                          <div class="tittlePlan mb-3 mt-3">
+                            <h6>Planes de Suscripcion:</h6>
+                        </div>
+                          <div class="checkbox mb-3">
+                            <label for="checkbox">Un mes por $4.000</label>
+                            <input type="checkbox">
+                        </div>
+                        <div class="checkbox mb-3">
+                          <label for="checkbox">6 meses por $20.000</label>
+                          <input type="checkbox">
+                      </div>
+                        <div class="checkbox mb-3">
+                          <label for="checkbox">1 año por $30.000</label>
+                          <input type="checkbox">
+                      </div>
+                      <div class="payMethod mb-3 mt-3">
+                        <h6>Metodos de pago:</h6>
+                        <div class="dropdown">
+                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Seleccione...
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Paypal</a>
+                            <a class="dropdown-item" href="#">WebPay</a>
+                            <a class="dropdown-item" href="#">Targeta Registrada</a>
+                          </div>
+                        </div>
+                      </div>
+                          <div style="text-align: center;">
+                              <input type="submit"  class="btn btn-success mt-3" name="btnEnviar" id="btnEnviar">
+                              <input type="reset" class="btn btn-danger mt-3" name="btnLimpiar" id="btnLimpiar">
+                          </div>
+                      </form>
+                  </div>
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
   <footer class="text-center text-white" style="background-color: rgb(34, 31, 31);">
     <!-- Grid container -->
     <div class="container p-4 pb-0">

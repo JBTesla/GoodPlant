@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usuario</title>
+    <title>historialCompras</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -29,7 +29,7 @@
               <a class="nav-link" href="productos.html">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="descuentos.html">Codigos de descuento</a>
+              <a class="nav-link" href="carrito.html">Carrito de compras</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" data-toggle="modal" data-target="#ModalFundacion">Unete a la Fundacion</a>
@@ -51,70 +51,58 @@
                             <p>Bienvenido JBtesla</p>
                     </div>
                 </div>
-                <div class="row-menu">
+                <div class="row">
                     <div class="col-sm-12">
-                        <ul class="nav nav-pills flex-column mt-3">
-                            <li class="nav-item mt-1">
-                              <a class="nav-link " href="perfilUsuario.html"> <i class="fa fa-id-badge"></i> Perfil</a>
-                            </li>
-                            <li class="nav-item mt-1">
-                              <a class="nav-link" href="historialCompras.html"><i class="fa fa-clock-rotate-left"></i> Historial Compras</a>
-                            </li>
-                            <li class="nav-item mt-1">
-                              <a class="nav-link" href="despacho.html"><i class="fa fa-truck"></i> Seguimiento Despacho</a>
-                            </li>
-                            <li>
-                            <hr>
-                           </li>
-                            <li class="nav-item mt-1">
-                                <a class="nav-link" href="index.html"><i class="fa fa-right-from-bracket"></i> Cerrar Sesión</a>
-                              </li>
-                          </ul>
+                      <ul class="nav nav-pills flex-column mt-3">
+                        <li class="nav-item mt-1">
+                          <a class="nav-link " href="perfilUsuario.html"> <i class="fa fa-id-badge"></i> Perfil</a>
+                        </li>
+                        <li class="nav-item mt-1">
+                          <a class="nav-link" href="historialCompras.html"><i class="fa fa-clock-rotate-left"></i> Historial Compras</a>
+                        </li>
+                        <li class="nav-item mt-1">
+                          <a class="nav-link" href="suscripcion.html"><i class="fa-brands fa-gratipay"></i> suscripcion</a>
+                        </li>
+                        <li>
+                          <hr>
+                         </li>
+                        <li class="nav-item mt-1">
+                            <a class="nav-link" href="index.html"><i class="fa fa-right-from-bracket"></i> Cerrar Sesión</a>
+                          </li>
+                      </ul>
                     </div>
                     </div>
                 </div>
             <div class="col-sm-10">
                 <div class="row">
-                        <div class="col-sm-4">
-                        <div class="card mt-3" style="width:250px">
-                          <img class="card-img-top" src="img/DefaultUser.png" alt="Card image">
-                          <div class="card-body">
-                            <h4 class="card-title">JBtesla</h4>
-                            <p class="card-text">Usuario Gold</p>
-                            <p class="card-text">Email: JBtesla@gmail.com</p>
-                            <p class="card-text">Numero:+5695453525</p>
-                          </div>
-                        </div>
-                        </div>
-                        <div class="col-sm-4">
-                        <div class="card mt-3" style="width:300px">
-                          <img class="card-img-top" src="img/mapaDespacho2.jpg" alt="Card image">
-                          <div class="card-body">
-                            <h4 class="card-title">Direccion Despacho</h4>
-                            <p class="card-text">Ciudad: Santiago</p>
-                            <p class="card-text">Comuna: Puente Alto</p>
-                            <p class="card-text">Domicilio: calle1 01314</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-3 mb-3">
-                        <div class="card mt-3" style="width:250px">
-                          <img class="card-img-top" src="img/MetodoPago.png" alt="Card image">
-                          <div class="card-body">
-                            <h4 class="card-title">Metodo de pago</h4>
-                            <p class="card-text">Tarjeta Credito: Banco estado</p>
-                            <p class="card-text">Segundo Metodo: Efectivo</p>
-                            <p class="card-text">Metodo Preferido: Tarjeta de Credito</p>
-                          </div>
-                        </div>
-                     </div>
+                    <div class="col-sm-4 my-3 pt-3 shadow">
+                      <img src="img/DefaultUser.png" alt="" class="float-top rounded-circle mr-2" width="150px">
+                      <h6> Nombre usuario: JBtesla</h6>
+                      <h6>Tipo de usuario: Suscrito<h6>
+                      <h6>Email: jbtesla@gmail.com</h6>
+                      <h6>Numero: +5699988776</h6>
                     </div>
-                  </div>
+                    <div class="col-sm-4 my-3 pt-3 shadow">
+                      <img src="img/mapaDespacho2.jpg" alt="" class="float-top rounded-circle mr-2" width="200px">
+                    <h6> Direccion de despacho</h6>
+                    <h6>Cuidad: Santiago</h6>
+                    <h6>Comuna: Puente Alto</h6>
+                    <h6>Direccion: Calle ryuk #01122</h6>
+                    </div>
+                    <div class="col-sm-4 my-3 pt-3 shadow">
+                      <img src="img/MetodoPago.png" alt="" class="float-top rounded-circle mr-2" width="150px">
+                      <h6> Tarjeta Registrada</h6>
+                      <h6>Banco: Banco Estado</h6>
+                      <h6>Tipo de Tarjeta: VISA Debito</h6>
+                      <h6>Numero tarjeta: *************776</h6>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-10"></div>
+                    <div class="col-sm-12"></div>
                 </div>
             </div>
+        </div>
+    </div>
     <!-- The Modal -->
   <div class="modal" id="ModalContacto2">
     <div class="modal-dialog">
@@ -135,61 +123,153 @@
         </div>
         <!-- Modal footer -->
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
-        <!-- The Modal -->
-<div class="modal" id="ModalFundacion">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Unete a la Fundacion</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-      <!-- Modal body -->
-      <div class="modal-body mt-3">
-          <div>
-            <div style="text-align: center;">
-              <img src="img/registroUsuario.png" alt="" width="50">
-              <form action="perfilUsuario.html" method="get">
-            </div>
-                  <div class="form-group">
-                      <label for="txtUser">Nombre</label>
-                      <input type="text" placeholder="Ingrese Nombre" class="form-control" name="txtName" id="txtName">
-                  </div>
-                  <div>
-                    <label for="txtAppaterno">Apellido paterno</label>
-                    <input type="text" placeholder="Ingrese apellido paterno" class="form-control" name="txtAppaterno" id="txtAppaterno">
-                </div>
-                <div>
-                  <label for="txtApmaterno">Apellido materno</label>
-                  <input type="text" placeholder="Ingrese apellido materno" class="form-control" name="txtApmaterno" id="txtApmaterno">
-              </div>
-                  <div>
-                      <label for="txtEmail">Correo Electronico</label>
-                      <input type="text" placeholder="Ingresa tu correo" class="form-control" name="txtEmail" id="txtEmail">
-                  </div>
-                  <div>
-                    <label for="txtNumcon">Numero Contacto</label>
-                    <input type="text" placeholder="Ingrese numero contacto" class="form-control" name="txtNumcon" id="txtNumcon">
-                </div>
-                  <div style="text-align: center;">
-                      <input type="submit"  class="btn btn-success mt-3" name="btnEnviar" id="btnEnviar">
-                      <input type="reset" class="btn btn-danger mt-3" name="btnLimpiar" id="btnLimpiar">
-                  </div>
-              </form>
+    <!-- The Modal -->
+    <div class="modal" id="ModalContacto">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Contacto</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
-      </div>
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+  
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div style="text-align: center;">
+              <img src="img/Contacto.png" alt="" width="50px">
+          </div>
+            <p><i class="fa-solid fa-square-phone"></i> Numero de Contacto: +5695453525</p>
+            <p><i class="fa-brands fa-instagram"></i> Instagram: Good_Plant_Store</p>
+            <p><i class="fa-brands fa-facebook-square"></i> Facebook: Good_Plant_Store</p>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+        <!-- The Modal -->
+  <div class="modal" id="ModalRegister">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Registro de usuario</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+              <div style="text-align: center;">
+                  <img src="img/registroUsuario.png" alt="" width="50">
+                  <form action="perfilUsuario.html" method="get">
+                      <div class="form-group">
+                          <label for="txtUser">Crea Tu Usuario</label>
+                          <input type="text" placeholder="Ingrese Usuario" class="form-control" name="txtUser" id="txtUser">
+                      </div>
+                      <div>
+                          <label for="txtEmail">Correo Electronico</label>
+                          <input type="text" placeholder="Ingresa tu correo" class="form-control" name="txtEmail" id="txtEmail">
+                      </div>
+                      <div>
+                          <label for="txtPass">Contraseña</label>
+                          <input type="password" placeholder="Ingrese Contraseña" class="form-control" name="txtPass" id="txtPass">
+                      </div>
+                      <div>
+                          <label for="txtReneedPass">Confirmar Contraseña</label>
+                          <input type="password" placeholder="Reescriba la Contraseña" class="form-control" name="txtPass" id="txtPass">
+                      </div>
+                      <div>
+                          <input type="submit"  class="btn btn-success" value="Guardar" name="btnEnviar" id="btnEnviar" >
+                          <input type="reset" class="btn btn-danger" value="Borrar historial" name="btnLimpiar" id="btnLimpiar">
+                      </div>
+              
+                  </form>
+              </div>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- The Modal -->
+        <div class="modal" id="ModalFundacion">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Unete a la Fundacion</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body mt-3">
+                  <div>
+                    <div style="text-align: center;">
+                      <img src="img/registroUsuario.png" alt="" width="50">
+                      <form action="perfilUsuario.html" method="get">
+                    </div>
+                          <div class="form-group">
+                              <label for="txtUser">Nombre Completo</label>
+                              <input type="text" placeholder="Ingrese Nombre" class="form-control" name="txtName" id="txtName">
+                          </div>
+                          <div class="txtEmail">
+                              <label for="txtEmail">Correo Electronico</label>
+                              <input type="text" placeholder="Ingresa tu correo" class="form-control" name="txtEmail" id="txtEmail">
+                          </div>
+                          <div>
+                            <label for="txtNumcon">Numero Contacto</label>
+                            <input type="text" placeholder="Ingrese numero contacto" class="form-control" name="txtNumcon" id="txtNumcon">
+                        </div>
+                          <div class="tittlePlan mb-3 mt-3">
+                            <h6>Planes de Suscripcion:</h6>
+                        </div>
+                          <div class="checkbox mb-3">
+                            <label for="checkbox">Un mes por $4.000</label>
+                            <input type="checkbox">
+                        </div>
+                        <div class="checkbox mb-3">
+                          <label for="checkbox">6 meses por $20.000</label>
+                          <input type="checkbox">
+                      </div>
+                        <div class="checkbox mb-3">
+                          <label for="checkbox">1 año por $30.000</label>
+                          <input type="checkbox">
+                      </div>
+                      <div class="payMethod mb-3 mt-3">
+                        <h6>Metodos de pago:</h6>
+                        <div class="dropdown">
+                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Seleccione...
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Paypal</a>
+                            <a class="dropdown-item" href="#">WebPay</a>
+                            <a class="dropdown-item" href="#">Targeta Registrada</a>
+                          </div>
+                        </div>
+                      </div>
+                          <div style="text-align: center;">
+                              <input type="submit"  class="btn btn-success mt-3" name="btnEnviar" id="btnEnviar">
+                              <input type="reset" class="btn btn-danger mt-3" name="btnLimpiar" id="btnLimpiar">
+                          </div>
+                      </form>
+                  </div>
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
 <footer class="bg-dark text-center text-white">
   <!-- Grid container -->
   <div class="container p-4 pb-0">
